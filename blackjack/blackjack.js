@@ -16,6 +16,9 @@ window.onload = function() {
     buildDeck();
     shuffleDeck();
     startGame();
+
+    var resetButton = document.getElementById("again");
+    resetButton.addEventListener("click", resetGame);
 }
 
 function buildDeck() {
@@ -116,6 +119,11 @@ function stay() {
     document.getElementById("dealer-sum").innerText = dealerSum;
     document.getElementById("your-sum").innerText = yourSum;
     document.getElementById("results").innerText = message;
+}
+
+function resetGame() {
+
+    location.reload();
 }
 
 function getValue(card) {
