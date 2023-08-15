@@ -8,6 +8,8 @@ You play agains the Bank (Dealer) and you need to hit 21 to be sure to win. The 
 
 # Link to the Website
 
-blackjack-online.netlify.app/
+blackjack-online.netlify.app
 
 # Screenshot
+
+<img width="754" alt="blackjack" src="https://github.com/StefDegiorgi/BlackJack/assets/139114438/eb3b3453-883a-434d-b3e8-4ef8f90650ec">
